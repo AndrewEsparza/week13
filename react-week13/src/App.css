@@ -1,0 +1,77 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; 
+}
+
+.login-form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 400px; /* Push the login form down from the navbar */
+}
+
+.login-header {
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.navbar {
+  color: #333;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 105px; /* Push the navbar down from the top */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Hovered link color */
+}
